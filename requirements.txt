@@ -1,0 +1,6 @@
+scrapy>=1.2.1
+redis>=2.10.5
+scrapy-redis>=0.6.3
+SQLAlchemy>=1.1.4
+pymysql>=0.7.9
+mmh3>=2.3.1
