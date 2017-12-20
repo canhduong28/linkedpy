@@ -72,4 +72,4 @@ Examples
 
 To stop running: press Ctrl + C twice
 
-Written by Canh Duong 2012 (contact: nautilus404@gmail.com)
+Written by Canh Duong 2012 (contact: canhdn91@gmail.com)
