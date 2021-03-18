@@ -97,11 +97,13 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+import os
+
 DATABASE = {
     'drivername': 'mysql+pymysql',
     'host': 'localhost',
     'port': '3306',
     'username': 'web',
-    'password': '44nKR8fU',
+    'password': os.environ['DB_PASS'],
     'database': 'techindemand'
 }
